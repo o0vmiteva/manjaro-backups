@@ -1,0 +1,30 @@
+/* global css */
+h1 {
+    font-size: 40px;
+}
+
+.earth_color {
+    color: darkgreen;
+}
+
+.mars_color {
+color: darkorange;
+}
+
+.index_color {
+    color: black;
+}
+
+.index {
+    color: brown
+}
+
+/* earth headings*/
+.color_title {
+    color: darkgreen;
+}
+
+/* mars heading */
+.mars_title {
+    color: darkorange;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: #333333;
+    color: white;
+}
+
+header {
+    /* border-color: yellow;
+    border-width: 3px;
+    border-style: solid; */
+    border: 2px solid yellow;
+    width: 150px;
+    padding: 10px;
+    margin: 10px 20px 30px 0px; 
+} /*slaga margin top, right, bottom left*/
+/* margin: 50px (slaga margin 50px na vsichki strani) */
+/* margin: 10px 20px (top and bottom-10ox i right and left-20px) */
+
+main {
+    background-color: white;
+    color: #333333;
+    width: 300px;
+    padding: 10px;
+}

@@ -1,0 +1,110 @@
+/* html {
+    font-size: 100%;
+} 
+no po princip ne se slaga*/
+
+body {
+    margin: 0;
+    font-size: 1 rem;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+img {
+    width: 100%;
+}
+
+/* ===typography=== */
+/* rem - se adjestva spored root or the document */
+/* em - se adjestva spored font size na patenta */
+/* ako beshe izpolzvan em,
+font size shteshe da adjestva spored
+font size na bodyto, poneje to
+e declarenato*/
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #ef5839;
+    margin-top: 0;
+}
+
+h1, h2, strong {
+    font-weight: 900;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover, 
+a:focus {
+    color: #d4b44c;
+}
+
+/* ===buttons=== */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-accent {
+    background: #ef5839;
+    color: white;
+}
+
+.btn-accent:hover, 
+.btn-accent:focus {
+    background: #2e354f;
+    color: #ef5839;
+}
+
+.btn-white {
+    background: white;
+    color: #2e354f;
+}
+
+.btn-white:hover, 
+.btn-white:focus {
+    background: #2e354f;
+    color: white;
+}
+
+/* ===layout=== */
+.container {
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+/* .container {
+    width: 620px;
+    margin: 0 auto;
+} tova e fixed layout*/
+
+header {
+    background: #2e354f;
+    color: white;
+}
+
+section, header {
+    padding: 45px 0;
+}
+
+.section-two {
+    background: #2e354f;
+    color: white;
+}
+
+/* 1em = font size of the parent
+    1.5em = 150% ot font size
+*/
+
+ul {
+    font-size: 1rem;
+}
